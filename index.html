@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pose-guided Motion Diffusion Model - Supplementary Material</title>
+    <title>AMIGO: Affordance-based Multi-human Interaction Generation - Supplementary Material</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -306,31 +306,166 @@
             <h2>Comparisons over Custom Prompts</h2>
             
             <div class="sub-section">
-                <h3 class="sub-title">two people are leaping over a hurdle together.</h3>
+                <h3 class="sub-title">A person points at something and whisper.</h3>
                 <div class="video-gallery">
                     <div class="video-item">
                     <video controls muted loop playsinline>
-                        <source src="testset/leaping1.mkv" type="video/mp4">
+                        <source src="custom/point.mkv" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                     <p>Ours</p>
                     </div>
                     <div class="video-item">
                         <video controls muted loop playsinline>
-                            <source src="testset/leaping2.mkv" type="video/mp4">
+                            <source src="custom/point-i.mkv" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                         <p>InterGen</p>
                     </div>
+                </div>
+            </div>
+            
+            <div class="sub-section">
+                <h3 class="sub-title">A person sits down with another sitting person.</h3>
+                <div class="video-gallery">
                     <div class="video-item">
                     <video controls muted loop playsinline>
-                        <source src=" " type="video/mp4">
+                        <source src="custom/sittogether.mkv" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <p>Ground Truth</p>
+                    <p>Ours</p>
+                    </div>
+                    <div class="video-item">
+                        <video controls muted loop playsinline>
+                            <source src="custom/sittogether-i.mkv" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p>InterGen</p>
                     </div>
                 </div>
             </div>
+
+            <div class="sub-section">
+                <h3 class="sub-title">A person teaches another to box while the other defends.</h3>
+                <div class="video-gallery">
+                    <div class="video-item">
+                    <video controls muted loop playsinline>
+                        <source src="custom/teachbox.mkv" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Ours</p>
+                    </div>
+                    <div class="video-item">
+                        <video controls muted loop playsinline>
+                            <source src="custom/teachbox-i.mkv" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p>InterGen</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-title">The two persons shake hands formally.</h3>
+                <div class="video-gallery">
+                    <div class="video-item">
+                    <video controls muted loop playsinline>
+                        <source src="custom/formalshake.mkv" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Ours</p>
+                    </div>
+                    <div class="video-item">
+                        <video controls muted loop playsinline>
+                            <source src="custom/formalshake-i.mkv" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p>InterGen</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-title">One person trips over, another helps him to stand up.</h3>
+                <div class="video-gallery">
+                    <div class="video-item">
+                    <video controls muted loop playsinline>
+                        <source src="custom/helptripover.mkv" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Ours</p>
+                    </div>
+                    <div class="video-item">
+                        <video controls muted loop playsinline>
+                            <source src="custom/helptripover-i.mkv" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p>InterGen</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-title">One person hands an object to another.</h3>
+                <div class="video-gallery">
+                    <div class="video-item">
+                    <video controls muted loop playsinline>
+                        <source src="custom/handobj.mkv" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Ours</p>
+                    </div>
+                    <div class="video-item">
+                        <video controls muted loop playsinline>
+                            <source src="custom/handobj-i.mkv" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p>InterGen</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-title">The two persons dance together, spinning.</h3>
+                <div class="video-gallery">
+                    <div class="video-item">
+                    <video controls muted loop playsinline>
+                        <source src="custom/dance.mkv" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Ours</p>
+                    </div>
+                    <div class="video-item">
+                        <video controls muted loop playsinline>
+                            <source src="custom/dance-i.mkv" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p>InterGen</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-title">The two persons rotate together.</h3>
+                <div class="video-gallery">
+                    <div class="video-item">
+                    <video controls muted loop playsinline>
+                        <source src="custom/dancespin.mkv" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Ours</p>
+                    </div>
+                    <div class="video-item">
+                        <video controls muted loop playsinline>
+                            <source src="custom/dancespin-i.mkv" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p>InterGen</p>
+                    </div>
+                </div>
+            </div>
+
+
         </section>
 
     </div>
